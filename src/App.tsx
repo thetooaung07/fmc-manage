@@ -1,10 +1,10 @@
 import "./App.css";
 import { NavBar } from "./components/NavBar";
-import { CtaSection } from "./sections/CtaSection";
-import { FeatureSection } from "./sections/FeatureSection";
-import { Footer } from "./sections/Footer";
-import { HeroSection } from "./sections/HeroSection";
-import { TestimonialSection } from "./sections/TestimonialSection";
+import { CtaSection } from "./Sections/CtaSection";
+import { FeatureSection } from "./Sections/FeatureSection";
+import { Footer } from "./Sections/Footer";
+import { HeroSection } from "./Sections/HeroSection";
+import { TestimonialSection } from "./Sections/TestimonialSection";
 
 function App() {
   return (
