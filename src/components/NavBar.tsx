@@ -14,19 +14,49 @@ export const NavBar = () => {
           <img src={Logo} alt="" />
         </div>
         <div className="hidden md:flex space-x-6">
-          <a href="/" className="hover:text-darkBluePale">
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+            }}
+            className="hover:text-darkBluePale"
+          >
             Pricing
           </a>
-          <a href="/" className="hover:text-darkBluePale">
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+            }}
+            className="hover:text-darkBluePale"
+          >
             Product
           </a>
-          <a href="/" className="hover:text-darkBluePale">
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+            }}
+            className="hover:text-darkBluePale"
+          >
             About Us
           </a>
-          <a href="/" className="hover:text-darkBluePale">
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+            }}
+            className="hover:text-darkBluePale"
+          >
             Careers
           </a>
-          <a href="/" className="hover:text-darkBluePale">
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+            }}
+            className="hover:text-darkBluePale"
+          >
             Community
           </a>
         </div>
@@ -55,19 +85,49 @@ export const NavBar = () => {
             isOpen ? "" : "hidden"
           } absolute flex flex-col items-center self-end md:hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}
         >
-          <a href="" className="hover:text-darkBluePale">
+          <a
+            href=""
+            onClick={(e) => {
+              e.preventDefault();
+            }}
+            className="hover:text-darkBluePale"
+          >
             Pricing
           </a>
-          <a href="" className="hover:text-darkBluePale">
+          <a
+            href=""
+            onClick={(e) => {
+              e.preventDefault();
+            }}
+            className="hover:text-darkBluePale"
+          >
             Product
           </a>
-          <a href="" className="hover:text-darkBluePale">
+          <a
+            href=""
+            onClick={(e) => {
+              e.preventDefault();
+            }}
+            className="hover:text-darkBluePale"
+          >
             About Us
           </a>
-          <a href="" className="hover:text-darkBluePale">
+          <a
+            href=""
+            onClick={(e) => {
+              e.preventDefault();
+            }}
+            className="hover:text-darkBluePale"
+          >
             Careers
           </a>
-          <a href="" className="hover:text-darkBluePale">
+          <a
+            href=""
+            onClick={(e) => {
+              e.preventDefault();
+            }}
+            className="hover:text-darkBluePale"
+          >
             Community
           </a>
         </div>

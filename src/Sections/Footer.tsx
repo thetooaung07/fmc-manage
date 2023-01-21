@@ -18,60 +18,136 @@ export const Footer = () => {
             <img src={LogoWhite} className="h-8" alt="" />
           </div>
           <div className="flex justify-center space-x-4">
-            <a href="#">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+            >
               <img src={Facebook} alt="" className="h-8" />
             </a>
-            <a href="#">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+            >
               <img src={Youtube} alt="" className="h-8" />
             </a>
-            <a href="#">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+            >
               <img src={Twitter} alt="" className="h-8" />
             </a>
-            <a href="#">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+            >
               <img src={PInterest} alt="" className="h-8" />
             </a>
-            <a href="#">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+            >
               <img src={Instagram} alt="" className="h-8" />
             </a>
           </div>
         </div>
         <div className="flex justify-around space-x-32">
           <div className="flex flex-col space-y-3 text-white">
-            <a href="#" className="hover:text-red0">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+              className="hover:text-red0"
+            >
               Home
             </a>
-            <a href="#" className="hover:text-red0">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+              className="hover:text-red0"
+            >
               Pricing
             </a>
-            <a href="#" className="hover:text-red0">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+              className="hover:text-red0"
+            >
               Products
             </a>
-            <a href="#" className="hover:text-red0">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+              className="hover:text-red0"
+            >
               About
             </a>
           </div>
           <div className="flex flex-col space-y-3 text-white">
-            <a href="#" className="hover:text-red0">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+              className="hover:text-red0"
+            >
               Careers
             </a>
-            <a href="#" className="hover:text-red0">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+              className="hover:text-red0"
+            >
               Community
             </a>
-            <a href="#" className="hover:text-red0">
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+              className="hover:text-red0"
+            >
               Privacy Policy
             </a>
           </div>
         </div>
 
         <div className="flex flex-col justify-between">
-          <form>
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+            }}
+          >
             <div className="flex space-x-3">
               <input
                 type="text"
                 className="flex-1 px-4 rounded-full focus:outline-none"
                 placeholder="Updated in your inbox"
               />
-              <button className="px-6 py-2 text-white rounded-full bg-red0 hover:bg-red1 focus:outline-none">
+              <button
+                className="px-6 py-2 text-white rounded-full bg-red0 hover:bg-red1 focus:outline-none"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+              >
                 Go
               </button>
             </div>
