@@ -15,7 +15,7 @@ export const Footer = () => {
             Copyright &copy; 2022, All Rights Reserved
           </div>
           <div>
-            <img src={LogoWhite} className="h-8 bg-white" alt="" />
+            <img src={LogoWhite} className="h-8" alt="" />
           </div>
           <div className="flex justify-center space-x-4">
             <a href="#">
