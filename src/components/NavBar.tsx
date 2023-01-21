@@ -14,19 +14,19 @@ export const NavBar = () => {
           <img src={Logo} alt="" />
         </div>
         <div className="hidden md:flex space-x-6">
-          <a href="" className="hover:text-darkBluePale">
+          <a href="/" className="hover:text-darkBluePale">
             Pricing
           </a>
-          <a href="" className="hover:text-darkBluePale">
+          <a href="/" className="hover:text-darkBluePale">
             Product
           </a>
-          <a href="" className="hover:text-darkBluePale">
+          <a href="/" className="hover:text-darkBluePale">
             About Us
           </a>
-          <a href="" className="hover:text-darkBluePale">
+          <a href="/" className="hover:text-darkBluePale">
             Careers
           </a>
-          <a href="" className="hover:text-darkBluePale">
+          <a href="/" className="hover:text-darkBluePale">
             Community
           </a>
         </div>
